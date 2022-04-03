@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import CustomLink from '../CustomLink/CustomLink';
+import useReviews from '../../hooks/useReviews';
 import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch('reviews.json')
-            .then(res => res.json())
-            .then(data => setReviews(data));
-    }, []);
+    const [reviews, setReviews] = useReviews();
     return (
         <div>
             <section className='grid grid-cols-1 md:grid-cols-2 mx-10 my-24'>
@@ -25,8 +21,12 @@ const Home = () => {
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-8 my-10 mx-4 md:mx-16 px-5 py-5'>
                     {
                         reviews.map(review => <Reviews key={review.id}
-                            review={review}></Reviews>)
+                            review={review}>
+                        </Reviews>)
                     }
+                </div>
+                <div className='flex justify-center'>
+                    <CustomLink to="/review"><button className="rounded-xl px-8 py-3 mb-6 shadow bg-orange-400 font-bold  text-lg">See All Reviews</button></CustomLink>
                 </div>
             </section>
         </div>
