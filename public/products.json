@@ -1,0 +1,11 @@
+[
+    {
+        "id": "1",
+        "category": "Watch",
+        "seller": "Addidas",
+        "price": 420,
+        "stock": 20,
+        "ratings": 4,
+        "img": "https://miro.medium.com/max/1400/1*WsUcQH6juDue0Wdx81l27w.jpeg"
+    }
+]

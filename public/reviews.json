@@ -1,0 +1,44 @@
+[
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "ANSUMAN DAs",
+        "rating": 3.5,
+        "body": "I had bought this product as a gift for my son birthday on 1st-JAN-2018. When he opened it yesterday, the wath is not projecting any image.This is really unacceptable."
+    },
+    {
+        "postId": 2,
+        "id": 2,
+        "name": "Aavesh Raj",
+        "rating": 4.0,
+        "body": "I bought a few watches as return gifts for my kids bday ... All watches work goods."
+    },
+    {
+        "postId": 3,
+        "id": 3,
+        "name": "Sanjoy Rana",
+        "rating": 3.8,
+        "body": "Nothing could be better at this price range.As it is a Chinese product you should use it carefully for better longevity. My junior is super happy.THANK YOU."
+    },
+    {
+        "postId": 4,
+        "id": 4,
+        "name": "Trishna Jahan",
+        "rating": 4.0,
+        "body": "There is a cute film view in the watch. That's cute.. When switch on the light and show it against the wall, u can see 24 illuminated Spiderman images on the wall ."
+    },
+    {
+        "postId": 5,
+        "id": 5,
+        "name": "Sriti Mona",
+        "rating": 4.5,
+        "body": "Good wrist watch"
+    },
+    {
+        "postId": 6,
+        "id": 6,
+        "name": "Zaman Imam",
+        "rating": 3.9,
+        "body": "The watch is very beautiful that I had."
+    }
+]
