@@ -1,9 +1,15 @@
-# Getting Started with Uno Wear.
+# Project Name: Uno Wear.
 
 Netlify Link: [Live Link: https://sparkling-beignet-a7484c.netlify.app](https://sparkling-beignet-a7484c.netlify.app).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Product Description: 
+- This project was completed using react routing.
+- used Tailwind css
+- Showed customers reviews
+- Showed DashBoard recharts
+- Answering questions in Blog
 
 ## Available Scripts
 

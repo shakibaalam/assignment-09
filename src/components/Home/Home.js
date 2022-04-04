@@ -20,13 +20,13 @@ const Home = () => {
                 <h2 className='text-3xl font-bold text-center my-12'>Customer Reviews....</h2>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-8 my-10 mx-4 md:mx-16 px-5 py-5'>
                     {
-                        reviews.map(review => <Reviews key={review.id}
+                        reviews.slice(0, 3).map(review => <Reviews key={review.id}
                             review={review}>
                         </Reviews>)
                     }
                 </div>
                 <div className='flex justify-center'>
-                    <CustomLink to="/review"><button className="rounded-xl px-8 py-3 mb-6 shadow bg-orange-400 font-bold  text-lg">See All Reviews</button></CustomLink>
+                    <CustomLink to="/review"><button className="rounded-xl px-8 py-3 mb-6 shadow-lg bg-orange-400 font-bold  text-lg ">See All Reviews</button></CustomLink>
                 </div>
             </section>
         </div>
