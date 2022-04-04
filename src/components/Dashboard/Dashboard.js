@@ -1,9 +1,11 @@
-import React from 'react';
+
+import { LineChart } from 'recharts';
 
 const Dashboard = () => {
+
     return (
         <div>
-
+            <LineChart></LineChart>
         </div>
     );
 };
